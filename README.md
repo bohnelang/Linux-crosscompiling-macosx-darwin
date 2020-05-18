@@ -43,5 +43,8 @@ int main() {
 
 ### Compile example
 - Go to example
-- Compile hello-Word example simple:  i686-apple-darwin10-gcc -m64 -std=gnu99  hello.c -o hello_x86-64.app -F/usr/lib/apple/SDKs/MacOSX$FRAMEWORK.sdk/System/Library/Frameworks\ 
+- Compile hello-Word example simple: 
+```
+i686-apple-darwin10-gcc -m64 -std=gnu99  hello.c -o hello_x86-64.app -F/usr/lib/apple/SDKs/MacOSX$FRAMEWORK.sdk/System/Library/Frameworks\ 
+```
 - Move binary to an Apple with MacOSX (Darwin) and call in a Terminal ./hello_x86-64.app
