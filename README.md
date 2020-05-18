@@ -4,7 +4,6 @@
 A complete crosscompiling environment for compiling simple gcc programs that can be executed  on MacOSX. You compile on Linux and can execute this binary on MacOSX.  
 
 
-[TOC]
 
 ## Acknowledgment
 1.  https://github.com/zamaudio/cross-apple This is an *almost* complete cross compiling Apple toolchain for Debian x86_64 in binary form.  It supports ppc, i386 and x86_64 apple targets. (Contains a bug in build-manifest - Version 0 is not allowed.)
@@ -44,5 +43,5 @@ int main() {
 
 ### Compile example
 - Go to example
-- Compile hello-Word example 
+- Compile hello-Word example simple:  i686-apple-darwin10-gcc -m64 -std=gnu99  hello.c -o hello_x86-64.app -F/usr/lib/apple/SDKs/MacOSX$FRAMEWORK.sdk/System/Library/Frameworks\ 
 - Move binary to an Apple with MacOSX (Darwin) and call in a Terminal ./hello
