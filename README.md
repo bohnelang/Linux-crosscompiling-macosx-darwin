@@ -7,8 +7,8 @@ A complete crosscompiling environment for compiling simple gcc programs that can
 
 ## Acknowledgment
 1.  https://github.com/zamaudio/cross-apple This is an *almost* complete cross compiling Apple toolchain for Debian x86_64 in binary form.  It supports ppc, i386 and x86_64 apple targets. (Contains a bug in build-manifest - Version 0 is not allowed.)
-1.  http://ppa.launchpad.net/flosoft/cross-apple/ Crosscompiler  apple-x86-gcc  as well apple-uni-sdk-10.6  from flosoft
 1.  https://github.com/zamaudio/cross-apple/blob/master/install-cross-apple Howto
+1.  http://ppa.launchpad.net/flosoft/cross-apple/ Crosscompiler  apple-x86-gcc  as well apple-uni-sdk-10.6  from flosoft
 1.  https://github.com/phracker/MacOSX-SDKs MacOSX-SDKs: A collection of those pesky SDK folders
 
 ## Downloading, building and installation of the .deb-packagues
