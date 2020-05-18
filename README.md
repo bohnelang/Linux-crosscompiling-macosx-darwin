@@ -12,6 +12,8 @@ A complete crosscompiling environment for compiling simple gcc programs that can
 1.  https://github.com/phracker/MacOSX-SDKs MacOSX-SDKs: A collection of those pesky SDK folders
 
 ## Downloading, building and installation of the .deb-packagues
+Just check install_run.sh and execute this file...
+
 ```
 #!/bin/bash
 
@@ -42,9 +44,8 @@ int main() {
 ```
 
 ### Compile example
-- Go to example
 - Compile hello-Word example simple: 
 ```
-i686-apple-darwin10-gcc -m64 -std=gnu99  hello.c -o hello_x86-64.app -F/usr/lib/apple/SDKs/MacOSX$FRAMEWORK.sdk/System/Library/Frameworks\ 
+i686-apple-darwin10-gcc -m64 -std=gnu99  hello.c -o hello_x86-64.app -F/usr/lib/apple/SDKs/MacOSX$FRAMEWORK.sdk/System/Library/Frameworks 
 ```
 - Move binary to an Apple with MacOSX (Darwin) and call in a Terminal ./hello_x86-64.app
